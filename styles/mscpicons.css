@@ -1,0 +1,129 @@
+
+.brickroad-modal-content {
+  background: none repeat scroll 0 0 #FFFFFF;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  max-width: 650px;
+  min-height: 300px;
+  padding: 15px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+.brickroad-modal-modal {
+  bottom: 30px;
+  left: 30px;
+  position: fixed;
+  right: 30px;
+  top: 30px;
+  z-index: 160000;
+}
+.brickroad-modal-footer {
+  background-color: #F1F1F1;
+  border-top: 1px solid #E1E1E1;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  position: absolute;
+  right: 0;
+  text-align: right;
+}
+.brickroad-modal-header > h2 {
+  border-bottom: 1px solid #EFEFEF;
+  font-weight: 300;
+  margin: 0 0 5px;
+  padding: 0 0 10px;
+}
+#brickroad-shortcode-config {
+  border-top: 1px solid #EFEFEF;
+  bottom: 50px;
+  left: 15px;
+  position: absolute;
+  right: 0;
+  top: 67px;
+}
+#ce-nav {
+  bottom: 0;
+  left: -15px;
+  position: absolute;
+  top: 0;
+  width: 145px;
+}
+#brickroad_container #ce-nav{
+  left: 0;
+}
+#brickroad-elemenet-content {
+  border-left: 1px solid #EFEFEF;
+  bottom: 0;
+  overflow: auto;
+  padding-left: 5px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 530px;
+}
+h3.brickroad-config-header{
+  border-bottom: 1px solid #F5F5F5;
+  font-weight: 300;
+}
+
+.posttype-item {
+  border-bottom: 1px solid #EFEFEF;
+  padding: 7px 5px 4px;
+}
+.posttype-item:hover{
+  background-color: #efefef;
+}
+.posttype-item input {
+  margin-right: 5px;
+}
+#ce-nav > ul {
+  margin: 5px 0 0;
+}
+#ce-nav a {
+  display: block;
+  font-weight: 300;
+  padding: 7px 0 6px 15px;
+  text-decoration: none;
+}
+#ce-nav li {
+  margin: 0;
+}
+#ce-nav li.current {
+  background: none repeat scroll 0 0 #F4F4F4;
+}
+#brickroad-elemenet-content .rowGroup {
+  border-bottom: 1px dashed #EFEFEF;
+  margin: 0 0 10px;
+}
+.toolrow {
+  margin-bottom: 5px;
+}
+#brickroad-elemenet-content .form-table th {
+  width: 100px;
+}
+#brickroad-elemenet-content input.regular-text {
+  width: 23em;
+}
+table.rowGroup,
+div.rowGroup {
+  position: relative;
+  margin-bottom: 5px; 
+}
+.remover {
+  display: none;
+  position: absolute;
+  right: 5px;
+  top: -15px;
+}
+table.rowGroup:hover .remover,
+div.rowGroup:hover .remover {
+  display: block;
+}
+
+/* OVERRIDES FOR OLDER VERSIONS */
+#TB_window, #TB_overlay {
+  z-index: 160000 !important;
+}

@@ -1,0 +1,27 @@
+.brickroad-admin-form {
+	clear: both;
+	position: relative;
+}
+
+.brickroad-projects-nav {
+	margin-left: -22px;
+	width: 200px;
+}
+.brickroad-projects-nav .count {
+	color: #999999;
+	font-weight: normal;
+	float: right;
+	margin-right: 8px;
+}
+.brickroad-projects-nav > li {
+	margin: 0;
+}
+.brickroad-projects-nav a {
+	display: block;
+	padding: 7px 0 6px 24px;
+	text-decoration: none;
+}
+.brickroad-projects-nav .current a ,
+.brickroad-projects-nav a:hover {
+	background-color: #E0E0E0;
+}
